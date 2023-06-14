@@ -5,151 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container{
-    width: 90%;
-    margin: 0 auto;
-}
-body {
-    background-color:#232526;
-}
-.container {
-    margin: 0 auto;
-    max-width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+    <link rel="stylesheet" href="/style.css">
     
-}
-.image-box img {
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    margin-top: 50px;
-    
-}
-.left-box {
-    background-color: #333;
-    width: 250px;
-    height: 460px;
-   margin-top: 50px;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-   
-   
-}
-.right-box{
-    width: 75%;
-}
-.about-box .Name{
-    font-size: 26px;
-    color:white;
-    margin: 20px;
-    
-}
-.about-box span {
-    font-size: 16px;
-    color: white;
-    margin: 0 auto;
-   margin: 25px;
-   padding: 10px;
-}
-
-
-.icon-box i{
-    color: white;
-    background-color: #333;
-    border-radius: 50%;
-    font-size: 18px;
-    display: inline;
-    
-    /* margin: 40px; */
-
-}
-.right-box {
-    width: 70%;
-}
-.icon-box2 i {
-color: white;
-
-
-
-}
-.icon-box2 {
-    flex-direction: row;
-    display: flex;
-    
-    
-    /* padding-left: 40px;
-    padding-right: 40px; */
-}
-
-.home-box i {
-    border: 1px solid black;
-    width: 60px;
-    height: 45px;
-    border-radius: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.archive-box i{
-    border: 1px solid black;
-    width: 60px;
-    height: 45px;
-    border-radius: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.login-box i {
-    border: 1px solid black;
-    width: 60px;
-    height: 45px;
-    border-radius: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.content-box {
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    margin-left: 40px;
-    margin-top:50px;
-    margin: 50px 40px ;
-    flex-direction: column;
-    padding: 40px;
-}
-.content-box h1,h4{
-    margin: 30px 20px 0px 30px
-}
-.content-box span {
-    color: gray;
-    font-size: 12px;
-    margin: 30px;
-}
-    </style>
 </head>
 <body>
     <header>
     <div class="container">
         <div class="left-box">
+            <div class="profile-box">
             <div class="image-box">
-                <img src="https://www.buraksenyurt.com/Custom/Themes/Standard/src/img/BurakSenyurt.jpg" alt="">
+                <a href="">
+                    <img src="https://www.buraksenyurt.com/Custom/Themes/Standard/src/img/BurakSenyurt.jpg" alt="">
+                    Burak Selim Şenyurt
+                </a>
             </div>
             <div class="about-box">
-                <span class="Name">Burak Selim Şenyurt</span>
                 <span>Matematik Mühendisi Bir Bilgisayar Programcısının Notları</span>
             </div>
             <div class="icon-box">
@@ -162,6 +32,7 @@ color: white;
                     <a href="https://github.com/buraksenyurt" target="_blank">
                         <i class="fa-brands fa-git"></i>
                     </a>
+            </div>
                    <div class="icon-box2">
 
                     <div class="home-box">
@@ -174,20 +45,53 @@ color: white;
                         <i class="fa-sharp fa-solid fa-right-to-bracket"></i>
                     </div>
                 </div>
+                <div class="search-box">
+                    <input type="text" placeholder="ARAMA...">
+                </div>
+                <div class="page-box">
+                    <h4>SAYFALARIM</h4>
+                    <div class="page-content">
+                        <ul>
+                            <li>
+                                Almanac
+                            </li>
+                            <li>
+                                Ben Kimim?
+                            </li>
+                            <li>
+                                Java ile 24 Kahve Molası Dökümanı
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="tag-Cloud">
+                <h4>TAG BULUTU</h4>
+                <div class="cloud-content">
+                    <ul>
+                        <li>.net</li>
+                        <li>.net core</li>
+                        <li>.net core 2.0</li>
+                        <li>.net framework</li>
+                        <li>.net framework 4.0</li>
+                        <li>.net remoting</li>
+                        <li>.net ria services</li>
+                    </ul>
+                </div>
             </div>
+        </div>
            
         </div>
         <div class="right-box">
             <div class="right-box-up">
                 <div class="content-box">
-                    <h1 style="color: blue;">Matematik ve Oyun Programlama - Missile Command - Final</h1>
+                    <h1 style="color:#0064c4;">Matematik ve Oyun Programlama - Missile Command - Final</h1>
                     <span >29 KASIM 2022 BURAK-SELIM-SENYURT RUST</span>
                     <h4>Hiçbir ödül veya karşılık beklemeden kendinizi iyi hissetmek adına en son ne yaptığınızı hatırlıyor musunuz? Bu öyle değişik bir iç motivasyon ki kendinizi bir amaca adayarak hareket etmenizi sağlıyor. Karşılaşılan engeller engel olmaktan çıkıyor ve anlamak istediğiniz şeyler haline geliyor. En azından ben birkaç haftadır böyle hissediyorum. Cevval bir oyun programcısı olmak ya da akademide bu alana dair dersler vermek gibi bir amacım yok ama çok güçlü bir iç motivasyonum var; öğrenmek… <b style="color: blue;">[Daha fazla]</b></h4>
                 </div>
             </div>
             <div class="right-box-down">
                 <div class="content-box">
-                    <h1 style="color: blue;">Matematik ve Oyun Programlama - Missile Command - Bölüm 2</h1>
+                    <h1 style="color: #0064c4;">Matematik ve Oyun Programlama - Missile Command - Bölüm 2</h1>
                     <span >25 KASIM 2022 BURAK-SELIM-SENYURT RUST</span>
                     <h4>Bir önceki programımızda Atari'nin efsane oyunlardan Missile Command'in arkasındaki matematik enstrümanları incelemeye başlamıştık. İkinci bölümde ise zeminin orta noktasına ve şehrin biraz yukarsına füze bataryamızı yerleştiriyoruz. Bu füze bataryası, oyuncu mouse imlecini ekranda hareket ettirdikçe oraya doğru dönecek bir çizgiden ibaret esasında. Oyuncu mouse imlecinin olduğu yerde sol tuşa tıklarsa da bataryanın namlu ucundan bu noktaya doğru sevimli ve mavi renkte minik bir dörtgen fırlıyor. Herhangi bir zamanda sahnede sadece üç tane mermi oluyor. Hatta füze bataryası 30 derecenin altına veya 150 derecenin üstüne hareket edemediği gibi ateş de edemiyor. Diğer yandan mermi, mouse ile tıklanan ilk noktaya vardığında sahneden kaldırılıyor. Mermiler belli bir hızda ama şehre inen füzelerden azıcık daha hızlı şekilde hareket ediyorlar.  <b style="color: blue;">[Daha fazla]</b></h4>
                 </div>
